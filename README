@@ -1,4 +1,4 @@
-Edit in Eclipse.
+This project was created in Eclipse.
 
 Run tests, builds and package in maven.
 mvn package -DskipTests
