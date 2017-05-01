@@ -4,5 +4,5 @@ Run tests, builds and package in maven.
 mvn package -DskipTests
 java -cp target/testjunit-0.0.1-SNAPSHOT.jar com.brainacad.oop.testjunit.testjunit.App
 
-Added Travis CI integration
+Added Travis CI integration 2
 
