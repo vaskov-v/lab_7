@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.brainacad.oop.testjunit.testcase.TemperatureConverterC2KTest
+-------------------------------------------------------------------------------
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec - in com.brainacad.oop.testjunit.testcase.TemperatureConverterC2KTest

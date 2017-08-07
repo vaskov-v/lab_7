@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.brainacad.oop.testjunit.testcase.TemperatureConverterF2CTest
+-------------------------------------------------------------------------------
+Tests run: 35, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec <<< FAILURE! - in com.brainacad.oop.testjunit.testcase.TemperatureConverterF2CTest
+convertFtoC[24](com.brainacad.oop.testjunit.testcase.TemperatureConverterF2CTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: F2C incorrect  expected:<82.22> but was:<-17.77777777777778>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:553)
+	at com.brainacad.oop.testjunit.testcase.TemperatureConverterF2CTest.convertFtoC(TemperatureConverterF2CTest.java:50)
+

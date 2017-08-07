@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: com.brainacad.oop.testjunit.testjunit.TemperatureConverterTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec <<< FAILURE! - in com.brainacad.oop.testjunit.testjunit.TemperatureConverterTest
+convertCtoF(com.brainacad.oop.testjunit.testjunit.TemperatureConverterTest)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: C2F incorrect  expected:<632.0> but was:<1112.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:553)
+	at com.brainacad.oop.testjunit.testjunit.TemperatureConverterTest.convertCtoF(TemperatureConverterTest.java:46)
+
+convertCtoK(com.brainacad.oop.testjunit.testjunit.TemperatureConverterTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: C2K incorrect  expected:<837.15> but was:<873.15>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:553)
+	at com.brainacad.oop.testjunit.testjunit.TemperatureConverterTest.convertCtoK(TemperatureConverterTest.java:53)
+
+convertFtoK(com.brainacad.oop.testjunit.testjunit.TemperatureConverterTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: F2K incorrect  expected:<0.0> but was:<922.0555555555557>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:553)
+	at com.brainacad.oop.testjunit.testjunit.TemperatureConverterTest.convertFtoK(TemperatureConverterTest.java:67)
+
+convertKtoC(com.brainacad.oop.testjunit.testjunit.TemperatureConverterTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: K2C incorrect  expected:<762.85> but was:<726.8>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:553)
+	at com.brainacad.oop.testjunit.testjunit.TemperatureConverterTest.convertKtoC(TemperatureConverterTest.java:60)
+
+convertKtoF(com.brainacad.oop.testjunit.testjunit.TemperatureConverterTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: K2F incorrect  expected:<540.3299999999999> but was:<1340.3>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:553)
+	at com.brainacad.oop.testjunit.testjunit.TemperatureConverterTest.convertKtoF(TemperatureConverterTest.java:74)
+
