@@ -1,14 +1,4 @@
 language: java
-jdk:
-  - oraclejdk8
-  - oraclejdk7
-  - openjdk6
-install: true
 script: ./mvnw clean install
-cache:
-  directories:
-  - $HOME/.m2
-
-script:
-  - ./mvnw clean install
+after_success:
   - bash <(curl -s https://codecov.io/bash)
